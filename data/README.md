@@ -1,8 +1,8 @@
-# An *r5py* sample data set that covers the centre of São Paulo
+# Data
 
-This package contains the following data sets:
+## São Paulo
 
-## `r5py.sampledata.sao_paulo.gtfs`
+### `spo_gtfs.zip`
 
 General Transit Feed Specification ([GTFS](https://developers.google.com/transit/gtfs/reference))
 data representing the public transport schedules, stop locations, lines, etc.
@@ -15,20 +15,20 @@ city of São Paulo for open use, but without a specific license
 specified.](https://www.sptrans.com.br/desenvolvedores)
 
 
-## `r5py.sampledata.sao_paulo.osm_pbf`
+### `spo_osm.pbf`
 
 A sample dataset representing OpenStreetMap data in protocolbuffer binary format (PBF), which was
 obtained from [Geofabrik](https://download.geofabrik.de/europe/finland.html).  The data is licensed
 under the [Open Data Commons Open Database License (ODbL)](https://www.openstreetmap.org/copyright).
 
 
-## `r5py.sampledata.sao_paulo.hexgrid_csv`
+### `spo_hexgrid.csv`
 
-A regular, hexagonally distributed, point grid data set over the extent of São Paulo, curated by the
+A regular, hexagonally distributed, point grid data set over the extent of São Paulo, created by the
 authors of [r5r](https://github.com/ipeaGIT/r5r/tree/master/r-package/inst/extdata/spo).
 
 
-## `r5py.sampledata.sao_paulo.hexgrid_gpkg`
+### `spo_hexgrid_EPSG32723.gpkg.zip`
 
-A regular, hexagon grid data set over the extent of São Paulo, curated by the authors of
+A regular, hexagon grid data set over the extent of São Paulo, created by the authors of
 [r5r](https://github.com/ipeaGIT/r5r/tree/master/r-package/inst/extdata/spo).
