@@ -37,5 +37,5 @@ hexgrid_gpkg = DataSet(
 
 osm_pbf = DataSet(
     f"{BASE_URL}/spo_osm.pbf",
-    "5cb72c6df5428ca0b90d0646f9e9ebc32b6ac6b189b53f8afc7a239abfe4d2ef"
+    "5cb72c6df5428ca0b90d0646f9e9ebc32b6ac6b189b53f8afc7a239abfe4d2ef",
 )
