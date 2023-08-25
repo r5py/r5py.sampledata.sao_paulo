@@ -43,7 +43,7 @@ jobs:
           REPOSITORY_NAME: ${{ github.event.repository.name }}
         run: |
           pip install .[test]
-          pip -y uninstall "${REPOSITORY_NAME}"
+          pip uninstall -y "${REPOSITORY_NAME}"
 
       - name: Run tests
         run: python -m pytest
