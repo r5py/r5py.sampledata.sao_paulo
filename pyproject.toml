@@ -41,6 +41,7 @@ Repository = "https://github.com/r5py/r5py.sampledata.sao_paulo.git"
 "Bug tracker" = "https://github.com/r5py/r5py.sampledata.sao_paulo/issues"
 
 [tool.pytest.ini_options]
+addopts = "-p no:faulthandler"
 pythonpath = ["src"]
 testpaths = ["tests"]
 
