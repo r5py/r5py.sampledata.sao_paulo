@@ -10,8 +10,6 @@ PACKAGE_NAME = "r5py.sampledata.sao_paulo"
 
 @pytest.fixture
 def _module():
-    import sys
-    print(sys.path)
     _module = importlib.import_module(PACKAGE_NAME)
     yield _module
 
