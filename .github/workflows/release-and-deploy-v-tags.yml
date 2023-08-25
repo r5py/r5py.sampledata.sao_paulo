@@ -31,9 +31,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Make sure pytest{,-asyncio,-cov,-lazy-fixture} are installed
+      - name: Make sure test dependencies are installed
         shell: bash -l {0}
-        run: pip install -c conda-forge pytest pytest-asyncio pytest-cov pytest-lazy-fixture
+        env:
+          REPOSITORY_NAME: ${{ github.event.repository.name }}
+        run: |
+          pip install .[test]
+          pip uninstall "${REPOSITORY_NAME}"
 
       - name: Run tests
         run: python -m pytest

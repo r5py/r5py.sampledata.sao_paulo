@@ -31,6 +31,9 @@ license = {text = "GPL-3.0-or-later or MIT"}
 
 dynamic = ["version"]
 
+[project.optional-dependencies]
+test = ["pytest"]
+
 [project.urls]
 Documentation = "https://r5py.readthedocs.org/"
 Repository = "https://github.com/r5py/r5py.sampledata.sao_paulo.git"
