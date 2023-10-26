@@ -4,7 +4,7 @@
 """Sample data set for r5py, covering São Paulo city centre, downloaded upon first access."""
 
 
-__version__ = "0.1.1.post1"
+__version__ = "0.1.2"
 __all__ = ["__version__"]
 
 
@@ -47,5 +47,5 @@ try:
 
 except ImportError as exception:
     raise ImportError(
-        "Install r5py>=0.1.1.dev1 to use the sample data sets"
+        "Install r5py>=0.1.0 to use the sample data sets"
     ) from exception
