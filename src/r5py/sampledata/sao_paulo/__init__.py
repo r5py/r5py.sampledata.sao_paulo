@@ -4,7 +4,7 @@
 """Sample data set for r5py, covering São Paulo city centre, downloaded upon first access."""
 
 
-__version__ = "1.0.2"
+__version__ = "1.0.3"
 __all__ = ["__version__"]
 
 
@@ -20,7 +20,7 @@ try:
 
     gtfs = SampleDataSet(
         f"{BASE_URL}/spo_gtfs.zip",
-        "57d0d5f3359cbd0d42cc7467c51ec9b14e0c9dc1665308246644fbc3bddd9a1f",
+        "b944d5374b207e3f07613123b05366e4d16e3133e4d08ccd6aa089d09489e2c7",
     )
 
     hexgrid_csv = SampleDataSet(
