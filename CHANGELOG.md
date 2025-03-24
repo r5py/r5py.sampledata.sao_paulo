@@ -1,3 +1,6 @@
+- **1.0.3** (2025-03-24):
+    - fix errors in GTFS data set
+
 - **1.0.2** (2025-03-14):
     - include *all* tests in sdist
 
