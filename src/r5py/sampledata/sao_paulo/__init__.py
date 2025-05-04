@@ -4,7 +4,7 @@
 """Sample data set for r5py, covering São Paulo city centre, downloaded upon first access."""
 
 
-__version__ = "1.0.3"
+__version__ = "1.0.3.post2"
 __all__ = ["__version__"]
 
 
